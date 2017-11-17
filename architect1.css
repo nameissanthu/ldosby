@@ -1,0 +1,215 @@
+#architect{
+        background-image: url(images/background2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+}
+/*about*/
+#about{
+    padding:40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#about .head{font-size: 24px;}
+.content{padding: 10px 65px 10px 0px;}
+.content button{
+    margin: 20px 0;
+    background-color: transparent;
+    border: 2px solid rgb(206, 71, 61);
+    margin-top: 16px;
+    padding: 8px 10px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: "Arkibal Stencil Light"
+}
+
+.head{
+    font-family: Arkibal Display Heavy;
+}
+.content button img {
+    margin: -3px 5px;
+}
+.video{
+    background-color: #dedede;
+    padding: 10px;
+    margin-top: 25px;
+}
+.image{
+    background-color: #dedede;
+    padding: 10px;
+    margin-top: 10px;
+}
+.content1{
+    padding: 10px 65px 10px 0px;
+    margin-top: 130px;
+}
+.content1 button{
+    margin: 20px 0;
+    background-color: transparent;
+    border: 2px solid rgb(206, 71, 61);
+    margin-top: 16px;
+    padding: 8px 10px;
+    letter-spacing: 2px;
+    font-size: 12px;
+     font-family: "Arkibal Stencil Light"
+    
+}
+.content1 button img {
+    margin: -3px 5px;
+}
+
+.content1 p{
+ font-family: "Arkibal Stencil Light"   
+}
+.content p{
+ font-family: "Arkibal Stencil Light" 
+}
+
+hr{
+    border-top: 1px solid #dedede;
+    margin-top: 0px;
+}
+/*end of update*/
+/*services*/
+.serv1,.serv2,.serv3,.serv4{
+    margin:0px;
+    
+}
+/*end of services*/
+footer{
+    margin:100px 0;
+    font-family: "Arkibal Stencil Light";
+}
+.arct1{
+ font-size: 135px;
+ 
+}
+.arct2{
+    font-size: 135px;
+    line-height: 80px;
+}
+.arct1,.arct2 {
+    font-size: 80px;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.arctheading{
+ padding:220px 80px 70px 1px;
+}
+.arct2 p{
+	padding-left: 15px;
+}
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns:  30% 30% 30%;
+    grid-column-gap:1em;
+    text-align: left;
+    font-size: 30px;
+    font-family: Arkibal Stencil Medium;
+    
+}
+.wrapper p{
+   font-size: 15px;
+   text-align: left; 
+   font-family: "Arkibal Stencil Light"
+}
+.wrapper2 > div{
+    background: #eee;
+    padding: 1em;
+}
+.wrapper2{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap:1em;
+    text-align: left;
+    font-size: 30px;
+    font-family: Arkibal Stencil Medium;
+    padding-top: 30px;      
+}
+.wrapper2 p{
+   font-size: 15px;
+   text-align: left; 
+   font-family: "Arkibal Stencil Light"
+}
+.wrapper > .source1{
+    background:#FADFE8;
+   
+    
+}
+.wrapper > .source2{
+    background:#FCE5D7;
+}
+.wrapper > .source3{
+    background:#FCEEE3;
+}
+.wrapper2 > .source4{
+    background:#F0F1F6;
+}
+.wrapper2 > .source5{
+    background:#E0DFEF;
+       
+}
+
+
+
+
+@media screen and (max-width: 660px){
+
+    .arct1,.arct2 {
+    font-size: 70px;
+    font-weight:100;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+    line-height: 1em;
+}
+
+
+}
+@media screen and (max-width: 600px){
+
+    .arct1,.arct2 {
+    font-size: 60px;
+    font-weight:100;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+    line-height: 1em;
+}
+
+
+}
+@media screen and (max-width: 500px){
+
+    .arct1,.arct2 {
+    font-size: 50px;
+    font-weight:100;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+    line-height: 1em;
+}
+
+
+}
+
+@font-face {
+      font-family: "Arkibal Stencil Medium";
+      src: url("css/fonts/Arkibal Stencil Medium.otf");
+}
+@font-face {
+        font-family: "Arkibal Stencil Light";
+        src: url("css/fonts/Arkibal Stencil Light.otf");
+}
+@font-face {
+        font-family: "Arkibal Display Heavy";
+        src: url("css/fonts/Arkibal Display Heavy.otf");
+}
+@font-face {
+        font-family: "Arkibal Stencil Medium";
+        src: url("css/fonts/Arkibal Stencil Medium.otf");
+}

@@ -1,0 +1,486 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+label , select ,::-webkit-input-placeholder, .checkbox , .button{
+font-family:Arkibal Stencil Medium;
+}
+textp{
+	width: 250px;
+    line-height: 20px;
+    font-family:Arkibal Stencil Light;
+    font-size:15px
+}
+.project1{
+ font-size: 135px;
+ 
+}
+.project2{
+ font-size: 135px;
+ line-height: 90px;
+ padding-right: 40;
+}
+.project1,.project2 {
+    font-size: 90px;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.projectheading{
+    padding:140px 100px 70px 200px;
+}
+.project2 p{
+	padding-left:10px;
+	
+}
+
+.jobsheet1{
+ font-size: 135px;
+ 
+}
+.jobsheet2{
+ font-size: 135px;
+ line-height: 1.5em;
+ padding-right: 40;
+}
+.jobsheet1,.jobsheet2 {
+    font-size: 90px;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.jobsheetheading{
+    padding:140px 100px 70px 200px;
+}
+.jobsheet2 p{
+	padding-left: 15px;
+}
+textJ{
+	width: 200px;
+    line-height: 18px;
+    font-family:Arkibal Stencil Light;
+    font-size:15px
+}
+h2{
+	background-color: #727270;
+	font-size: 18px;
+	border-radius: 5px;
+	color:#fff;
+	font-family:Arkibal Stencil Medium;
+	
+}
+
+table, th, td {
+    border: 1px solid #C7C7C4;
+	font-family:Arkibal Stencil Medium;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+tableh p{
+	font-family:Arkibal Stencil Light;
+}
+.ban button{
+	font-family:Arkibal Stencil Medium ;
+	font-weight: bold;
+}
+.cont{
+    max-width: 500px;
+    margin: auto;
+}
+footer{
+    margin:100px 0;
+	font-family: Arkibal Stencil Light;
+}
+
+@font-face {
+      font-family: "Arkibal Stencil Medium";
+      src: url("fonts/Arkibal Stencil Medium.otf");
+}
+@font-face {
+        font-family: "Arkibal Stencil Light";
+        src: url("fonts/Arkibal Stencil Light.otf");
+}
+@font-face {
+        font-family: "Arkibal Display Heavy";
+        src: url("fonts/Arkibal Display Heavy.otf");
+}
+@font-face {
+        font-family: "Arkibal Stencil Medium";
+        src: url("fonts/Arkibal Stencil Medium.otf");
+}
+/*main card style*/
+.card {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: #fff;
+  padding: 0;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5,0 0 0 1px #d4d4d5;
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+  z-index: '';
+  margin-bottom: 30px;
+}
+.card a,
+.cards > .card a {
+  cursor: pointer;
+}
+
+.card > .card-content,
+.cards > .card > .card-content {
+  flex-grow: 1;
+  border: none;
+  background: 0 0;
+  margin: 0;
+  padding: 1em;
+  box-shadow: none;
+  font-size: 1em;
+  border-radius: 0;
+}
+.card > .card-content:after,
+.cards > .card > .card-content:after {
+  display: block;
+  height: 0;
+}
+.card > .card-content > h3.card-title,
+.cards > .card > .card-content > h3.card-title {
+  display: block;
+  margin: 0px;
+  font-family:Arkibal Stencil Medium;
+  font-size: 30px;
+  padding-right:300px  
+}
+.card > .card-content > h6.card-meta,
+.cards > .card > .card-content > h6.card-meta {
+  margin-top: 0.2em;
+}
+.card > .card-content > h6.card-meta + .card-description,
+.cards > .card > .card-content > h6.card-meta + .card-description,
+.card > .card-content > h3.card-title + .card-description,
+.cards > .card > .card-content > h3.card-title + .card-description{
+  margin-top: 1em;
+}
+.card > .card-content > .card-description,
+.cards > .card > .card-content > .card-description {
+  clear: both;
+  margin-top: 1em;
+}
+.card > .card-content p,
+.cards > .card > .card-content p {
+  margin: 0 0 0.5em;
+}
+.card > .card-content p:last-child,
+.cards > .card > .card-content p:last-child {
+  margin-bottom: 0;
+}
+.card > .card-content > a.card-title,
+.cards > .card > .card-content > a.card-title {
+  color: rgba(0, 0, 0, 0.85);
+}
+.card > .card-content > a.card-title:hover,
+.cards > .card > .card-content > a.card-title:hover {
+  color: #1e70bf;
+}
+
+/*card with border*/
+.card.card-centred-text {
+	text-align: center;
+	padding: 50px 50px;
+}
+/*card with border*/
+.card.card-with-border .card-content {
+  position: relative;
+  padding: 15px 15px 25px 15px;
+}
+.card.card-with-border::after {
+  position: absolute;
+  display: block;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  content: '';
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+} 
+/*bg and text*/
+.pink {color:#fff!important;background-color:#FADFE8!important;  }
+.orange {color:#fff!important;background-color:#FCE4D7!important;}
+.light-pink {color:#fff!important;background-color:#FCEEE3!important;}
+.blue {color:#fff!important;background-color:#F0F1F6!important;}
+.violet {color:#fff!important;background-color:#E0DFEF!important;}
+.text-white,.text-white-hover:hover{color:black!important; font-size:15px ;font-family:Arkibal Stencil Light;}
+
+
+@media screen and (max-width:959px) {
+
+.project2{
+ font-size: 100%;
+ line-height: 90px;
+ padding-right: 40;
+}
+.project1,.project2 {
+    font-size: 400%;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.projectheading{
+
+ padding:0;
+ margin:0;
+ text-align: center;
+}
+.container-fluid{
+   width: 100%;
+   height: auto;
+}
+
+
+textp{
+	width: 100%;
+    line-height: 15px;
+    font-family:Arkibal Stencil Light;
+    font-size:15px;
+	text-align: center;
+}
+.logo{
+  align-content: center;
+}
+    
+
+}
+
+
+@media screen and (max-width:595px) {
+
+.project2{
+ font-size: 100%;
+ line-height: 90px;
+ 	max-width: 100%;
+  
+}
+
+.project1,.project2 {
+    font-size: 350%;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+textp{
+	width: 100%;
+    line-height: 15px;
+    font-family:Arkibal Stencil Light;
+    font-size:10px;
+	text-align: center;
+}
+
+    
+  
+.projectheading{
+
+ padding:0;
+ margin:0;
+}
+}
+
+@media screen and (max-width:300px) {
+
+.project2{
+ font-size: 100%;    
+ line-height: 30px;
+ padding-right: 40;
+ 
+}
+.project1, .project2 {
+    
+font-size: 250%;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+	
+    
+	
+}
+.projectheading{
+   padding:0;
+      margin:0;
+      text-align: center;
+}
+textp{
+	width: 100%;
+    line-height: 15px;
+    font-family:Arkibal Stencil Light;
+    font-size:10px;
+	text-align: center;
+}
+.projectheading{
+    padding:140px 100px 70px 100px;
+}
+
+
+}	
+
+@media screen and (max-width:959px) {
+
+.jobsheet2{
+ font-size: 100%;
+ line-height: 90px;
+ padding-right: 40;
+}
+.jobsheet1,.jobsheet2 {
+    font-size: 400%;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.jobsheetheading{
+
+ padding:0;
+ margin:0;
+ text-align: center;
+}
+.container-fluid{
+   width: 100%;
+   height: auto;
+}
+
+
+textj{
+	width: 100%;
+    line-height: 15px;
+    font-family:Arkibal Stencil Light;
+    font-size:15px;
+	text-align: center;
+}
+.logo{
+  align-content: center;
+} 
+
+}
+
+@media screen and (max-width:959px) {
+
+.jobsheet2{
+ font-size: 100%;
+ line-height: 90px;
+ padding-right: 40;
+}
+.jobsheet1,.jobsheet2 {
+    font-size: 400%;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.jobsheetheading{
+
+ padding:0;
+ margin:0;
+ text-align: center;
+}
+.container-fluid{
+   width: 100%;
+   height: auto;
+}
+
+
+textj{
+	width: 100%;
+    line-height: 15px;
+    font-family:Arkibal Stencil Light;
+    font-size:15px;
+	text-align: center;
+}
+.logo{
+  align-content: center;
+} 
+
+}
+
+
+
+@media screen and (max-width:959px) {
+
+.main5{
+ font-size: 100%;
+ line-height: 90px;
+ padding-right: 40;
+}
+.main5,.main6 {
+    font-size: 400%;
+    font-weight:600;
+    font-family: Arkibal Display Heavy;
+    color: #008DD2;
+}
+.heading{
+
+ padding:0;
+ margin:0;
+ text-align: center;
+}
+.container-fluid{
+   width: 100%;
+   height: auto;
+}
+
+
+textp{
+	width: 100%;
+    line-height: 15px;
+    font-family:Arkibal Stencil Light;
+    font-size:15px;
+	text-align: center;
+}
+.logo{
+  align-content: center;
+} 
+
+}
